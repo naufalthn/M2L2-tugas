@@ -136,7 +136,7 @@ async def umur_sampah(ctx):
 
 
 
-bot.run("MTIxODQxNjQ4NTU1MTA1MDk0Mw.GRrJcZ.P-DiwdofdKmHQ2HGoCB0ynHcF4sJAkenSInXDk")
+bot.run("token")
 
 
 class MyClient(discord.Client):
@@ -155,4 +155,4 @@ intents = discord.Intents.default()
 intents.members = True
 
 client = MyClient(intents=intents)
-client.run('MTIxODQxNjQ4NTU1MTA1MDk0Mw.GRrJcZ.P-DiwdofdKmHQ2HGoCB0ynHcF4sJAkenSInXDk')
+client.run('token')
